@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Earth_Explorer_Header xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <Fixed_Header>
+    <File_Name>SW_EXPT_ACCCCAL_2__20140601T000000_20140601T235959_0301</File_Name>
+    <File_Description>Time series of corrected and calibrated acceleration, including all corrections and calibration parameters</File_Description>
+    <Notes/>
+    <Mission>Swarm</Mission>
+    <File_Class>EXPT</File_Class>
+    <File_Type>ACCCCAL_2_</File_Type>
+    <Validity_Period>
+      <Validity_Start>UTC=2014-06-01T00:00:00</Validity_Start>
+      <Validity_Stop>UTC=2014-06-01T23:59:59</Validity_Stop>
+    </Validity_Period>
+    <File_Version>0301</File_Version>
+    <Source>
+      <System>L2PS</System>
+      <Creator>L2PS-LUH</Creator>
+      <Creator_Version>35.95</Creator_Version>
+      <Creation_Date>UTC=2020-04-08T23:12:32</Creation_Date>
+    </Source>
+  </Fixed_Header>
+
+  <Variable_Header>
+    <MPH>
+      <Product>SW_EXPT_ACCCCAL_2__20140601T000000_20140601T235959_0301</Product>
+      <Product_Format>CDF</Product_Format>
+      <Proc_Stage_Code>EXPT</Proc_Stage_Code>
+      <Ref_Doc>SW-DS-DTU-GS-0001</Ref_Doc>
+      <Proc_Center>LUH</Proc_Center>
+      <Proc_Time>UTC=2020-04-08T23:12:32.153480</Proc_Time>
+      <Software_Version>L2PS-LUH/35.95</Software_Version>
+      <Product_Err>0</Product_Err>
+      <Tot_Size unit="bytes">+00000000000003819473</Tot_Size>
+      <CRC>+0759138209</CRC>
+    </MPH>
+    <SPH>
+      <SPH_Descriptor>ACCCCAL_2_</SPH_Descriptor>
+      <Original_Filename>SW_EXPT_ACCCCAL_2__20140601T000000_20140601T235959_0301.cdf</Original_Filename>
+      <Sensing_Time_Interval>
+        <Sensing_Start>UTC=2014-06-01T00:00:00.000000</Sensing_Start>
+        <Sensing_Stop>UTC=2014-06-01T23:59:59.000000</Sensing_Stop>
+      </Sensing_Time_Interval>
+      <Product_Confidence_Data>
+        <Quality_Indicator>000</Quality_Indicator>
+      </Product_Confidence_Data>
+      <List_of_Input_File_Names count="7">
+        <File_Name>SW_OPER_SC_CDYN_1B_20140601T000000_20140601T235959_0401</File_Name>
+        <File_Name>SW_OPER_ACCC_PR_1B_20140601T000000_20140601T235959_0401</File_Name>
+        <File_Name>SW_OPER_MODC_SC_1B_20140601T000000_20140601T235959_0401</File_Name>
+        <File_Name>SW_EXPT_ACCCDISi2__20140601T000000_20140601T235959_0201</File_Name>
+        <File_Name>SW_OPER_ACCC_FMi2__20140601T000000_20140601T235959_0102</File_Name>
+        <File_Name>SW_OPER_ACCCPOD_2__20140601T000000_20140601T235930_0301</File_Name>
+        <File_Name>SW_OPER_ACCCCAL_2__20140601T000000_20140601T235959_0301</File_Name>
+      </List_of_Input_File_Names>
+      <List_of_Output_File_Names count="1">
+        <File_Name>SW_EXPT_ACCCCAL_2__20140601T000000_20140601T235959_0301</File_Name>
+      </List_of_Output_File_Names>
+    </SPH>
+  </Variable_Header>
+
+</Earth_Explorer_Header>
