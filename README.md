@@ -26,3 +26,4 @@ Using advanced clustering algorithms, we aim to reveal unique spatial relationsh
    ```bash
    git clone https://github.com/YourUsername/ClusterScope.git
    cd ClusterScope
+Authers: Jonathan Ramstedt and Otso Koljonen
